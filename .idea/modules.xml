@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learn-tdd-regexp.iml" filepath="$PROJECT_DIR$/learn-tdd-regexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regexp/regexp.iml" filepath="$PROJECT_DIR$/regexp/regexp.iml" />
     </modules>
   </component>
 </project>
