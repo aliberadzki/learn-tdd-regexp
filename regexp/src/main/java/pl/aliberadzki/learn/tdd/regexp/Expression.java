@@ -26,17 +26,25 @@ public class Expression {
     }
 
     public Expression maybe(String value) {
-        this.pattern += "(" + value +")?";
+        this.pattern += "(" + this.sanitize(value) +")?";
         return this;
     }
 
     public Expression find(String value) {
-        this.pattern +=  value;
+        this.pattern += this.sanitize(value);
         return this;
     }
 
     //just an alias
     public Expression then(String value) {
         return this.find(value);
+    }
+
+    public String toString() {
+        return this.pattern;
+    }
+
+    protected String sanitize(String value) {
+        return Pattern.quote(value);
     }
 }

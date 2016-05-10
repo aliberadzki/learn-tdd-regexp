@@ -34,9 +34,15 @@ public class ExpressionTest {
     @Test
     public void itCanChainMethods() {
         Expression expression = Expression.make().find("foo").maybe("bar").then("biz");
-        assertTrue(expression.match("foobarbiz"));
-        assertTrue(expression.match("foobiz"));
+        assertTrue(expression.match("ooofoobarbiz"));
+        assertTrue(expression.match("eeefoobiz"));
         assertFalse(expression.match("foobabiz"));
+
+        expression = Expression.make().find("www").maybe(".").then("google");
+        assertTrue(expression.match("www.google"));
+        assertTrue(expression.match("wwwgoogle"));
+        assertFalse(expression.match("www#google"));
+
 
     }
 }

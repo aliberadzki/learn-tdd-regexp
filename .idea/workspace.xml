@@ -63,14 +63,18 @@
       <file leaf-file-name="Expression.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regexp/src/main/java/pl/aliberadzki/learn/tdd/regexp/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48726115">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.02866242">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/regexp/src/test/java/pl/aliberadzki/learn/tdd/regexp/ExpressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1005,23 +1009,11 @@
       <workItem from="1462803129532" duration="866000" />
       <workItem from="1462804009600" duration="12000" />
       <workItem from="1462804145764" duration="780000" />
-      <workItem from="1462804948667" duration="4516000" />
+      <workItem from="1462804948667" duration="5047000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 21m 39s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 21m 53s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 22m 10s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 23m 02s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExpressionTest - 2016.05.10 at 09h 32m 33s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
@@ -1040,9 +1032,21 @@
     <history-entry file="ExpressionTest - 2016.05.10 at 09h 46m 02s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 47m 21s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 52m 16s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 52m 39s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 54m 56s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6174000" />
+    <option name="totallyTimeSpent" value="6705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="496" width="1855" height="1084" extended-state="6" />
@@ -1174,14 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regexp/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regexp/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1193,23 +1189,35 @@
     <entry file="file://$PROJECT_DIR$/regexp/src/test/java/pl/aliberadzki/learn/tdd/regexp/ExpressionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/regexp/src/main/java/pl/aliberadzki/learn/tdd/regexp/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48726115">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.02866242">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
           </folding>
         </state>
       </provider>
