@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
+import java.lang.reflect.Array;
+
 /**
  * Created by aliberadzki on 09.05.16.
  */
@@ -13,36 +15,44 @@ public class ExpressionTest {
     public void itFindsAString() {
         Expression expression = Expression.make().find("www");
 
-        assertTrue(expression.match("eeewwwqqq"));
-        assertTrue(expression.match("www"));
-        assertFalse(expression.match("wwewwrwwt"));
+        assertTrue(expression.matches("eeewwwqqq"));
+        assertTrue(expression.matches("www"));
+        assertFalse(expression.matches("wwewwrwwt"));
     }
 
     @Test
     public void itChecksForAnything() {
         Expression expression = Expression.make().anything();
-        assertTrue(expression.match("foo"));
+        assertTrue(expression.matches("foo"));
 
     }
 
     @Test
     public void itMaybeHasAValue() {
         Expression expression = Expression.make().maybe("http");
-        assertTrue(expression.match("http"));
+        assertTrue(expression.matches("http"));
     }
 
     @Test
     public void itCanChainMethods() {
         Expression expression = Expression.make().find("foo").maybe("bar").then("biz");
-        assertTrue(expression.match("ooofoobarbiz"));
-        assertTrue(expression.match("eeefoobiz"));
-        assertFalse(expression.match("foobabiz"));
+        assertTrue(expression.matches("ooofoobarbiz"));
+        assertTrue(expression.matches("eeefoobiz"));
+        assertFalse(expression.matches("foobabiz"));
 
         expression = Expression.make().find("www").maybe(".").then("google");
-        assertTrue(expression.match("www.google"));
-        assertTrue(expression.match("wwwgoogle"));
-        assertFalse(expression.match("www#google"));
+        assertTrue(expression.matches("www.google"));
+        assertTrue(expression.matches("wwwgoogle"));
+        assertFalse(expression.matches("www#google"));
+    }
 
+    @Test
+    public void itFindsMatchingGroups() {
+        Expression expression = Expression.make().find("dupa");
 
+        String[] matches = expression.match("alalaladupaioioio");
+
+        assertTrue(matches.length > 0);
+        assertEquals("test msg","dupa", matches[0]);
     }
 }
