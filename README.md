@@ -6,7 +6,7 @@ Goal is to implement `Expression` class that provides fluent API that matches re
 
 Example:
 
-```
+```java
 Expression expression = Expression.make()
                             .find("foo")
                             .maybe("bar")
