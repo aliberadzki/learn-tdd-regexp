@@ -17,4 +17,17 @@ public class ExpressionTest {
         assertTrue(expression.match("www"));
         assertFalse(expression.match("wwewwrwwt"));
     }
+
+    @Test
+    public void itChecksForAnything() {
+        Expression expression = Expression.make().anything();
+        assertTrue(expression.match("foo"));
+
+    }
+
+    @Test
+    public void itMaybeHasAValue() {
+        Expression expression = Expression.make().maybe("http");
+        assertTrue(expression.match("http"));
+    }
 }

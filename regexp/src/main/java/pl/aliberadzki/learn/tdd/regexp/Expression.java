@@ -19,8 +19,23 @@ public class Expression {
         return p.matcher(value).matches();
     }
 
+    public Expression anything() {
+        this.pattern += ".*";
+        return this;
+    }
+
+    public Expression maybe(String value) {
+        this.pattern += "(" + value +")?";
+        return this;
+    }
+    
     public Expression find(String value) {
         this.pattern +=  ".*" + value + ".*";
         return this;
+    }
+
+    //just an alias
+    public Expression then(String value) {
+        return this.find(value);
     }
 }
