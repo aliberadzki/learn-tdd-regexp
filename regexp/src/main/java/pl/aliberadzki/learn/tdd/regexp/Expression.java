@@ -15,7 +15,8 @@ public class Expression {
     }
 
     public boolean match(String value) {
-        Pattern p = Pattern.compile(this.pattern);
+        String finalPattern = ".*" + this.pattern + ".*";
+        Pattern p = Pattern.compile(finalPattern);
         return p.matcher(value).matches();
     }
 
@@ -28,9 +29,9 @@ public class Expression {
         this.pattern += "(" + value +")?";
         return this;
     }
-    
+
     public Expression find(String value) {
-        this.pattern +=  ".*" + value + ".*";
+        this.pattern +=  value;
         return this;
     }
 

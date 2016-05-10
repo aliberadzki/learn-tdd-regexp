@@ -30,4 +30,13 @@ public class ExpressionTest {
         Expression expression = Expression.make().maybe("http");
         assertTrue(expression.match("http"));
     }
+
+    @Test
+    public void itCanChainMethods() {
+        Expression expression = Expression.make().find("foo").maybe("bar").then("biz");
+        assertTrue(expression.match("foobarbiz"));
+        assertTrue(expression.match("foobiz"));
+        assertFalse(expression.match("foobabiz"));
+
+    }
 }

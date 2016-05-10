@@ -63,14 +63,14 @@
       <file leaf-file-name="Expression.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regexp/src/main/java/pl/aliberadzki/learn/tdd/regexp/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85987264">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.48726115">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/regexp/src/test/java/pl/aliberadzki/learn/tdd/regexp/ExpressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1005,23 +1005,11 @@
       <workItem from="1462803129532" duration="866000" />
       <workItem from="1462804009600" duration="12000" />
       <workItem from="1462804145764" duration="780000" />
-      <workItem from="1462804948667" duration="3860000" />
+      <workItem from="1462804948667" duration="4516000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 18m 54s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 19m 24s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 20m 06s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2016.05.10 at 09h 21m 00s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExpressionTest - 2016.05.10 at 09h 21m 39s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
@@ -1040,9 +1028,21 @@
     <history-entry file="ExpressionTest - 2016.05.10 at 09h 35m 15s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 40m 49s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 41m 48s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 42m 14s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2016.05.10 at 09h 46m 02s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5518000" />
+    <option name="totallyTimeSpent" value="6174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="496" width="1855" height="1084" extended-state="6" />
@@ -1065,7 +1065,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1193,7 +1193,7 @@
     <entry file="file://$PROJECT_DIR$/regexp/src/test/java/pl/aliberadzki/learn/tdd/regexp/ExpressionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1202,14 +1202,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regexp/src/main/java/pl/aliberadzki/learn/tdd/regexp/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85987264">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.48726115">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
