@@ -21,17 +21,17 @@ public class Expression {
     }
 
     public Expression anything() {
-        this.pattern += ".*";
+        this.add(".*");
         return this;
     }
 
     public Expression maybe(String value) {
-        this.pattern += "(" + this.sanitize(value) +")?";
+        this.add("(" + this.sanitize(value) +")?");
         return this;
     }
 
     public Expression find(String value) {
-        this.pattern += this.sanitize(value);
+        this.add(this.sanitize(value));
         return this;
     }
 
@@ -46,5 +46,9 @@ public class Expression {
 
     protected String sanitize(String value) {
         return Pattern.quote(value);
+    }
+
+    protected void add(String value) {
+        this.pattern += value;
     }
 }
